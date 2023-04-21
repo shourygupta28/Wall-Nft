@@ -16,6 +16,7 @@ import bnft2 from './NFT Image 2.png'
 import bnft3 from './NFT Image 3.png'
 import bnft4 from './NFT Image 4.png'
 import bnft5 from './NFT Image 5.png'
+import bgell from './Ellipse 206.png'
 import bg from './Ellipse 217.png'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
 // import {TwitterIcon,} from 'next-share'
@@ -32,7 +33,10 @@ export default function Home() {
         <div className={styles.profile}>
           <div className={styles.profiletop}>
             <div className={styles.dpb}>
+              <div className={styles.bdp}>
+              <Image src={bgell} className={styles.dpell}/>              
               <Image src={mypic} className={styles.dp}/>
+              </div>
               <div className={styles.lvl}>
                 LVL 2
               </div>
